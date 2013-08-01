@@ -12,7 +12,7 @@ textarea {
 
 body {
     font-size: 1em;
-    line-height: 1.4;
+    line-height: 1.5;
 }
 
 ::-moz-selection {
@@ -80,35 +80,71 @@ textarea {
 	#nav-approach{z-index:70; top:2em;}
 	#nav-graphics{z-index:50; top:4em;}
 	#nav-credentials{z-index:30; top:6em;}
+
+//Sections
 		
 section{
 	display:block;
 	position:relative;
 	width:100%;
-	min-height:1200px;
+	min-height:900px;
 	overflow:hidden;
 }
 
 #intro{z-index:100;}
-#approach{z-index:80;}
-#graphics{z-index:60;}
-#credentials{z-index:40;}
-#closing{z-index:0;}
+#approach{z-index:80;padding-top:30px}
+#graphics{z-index:60;padding-top:60px}
+#credentials{z-index:40;padding-top:90px}
+#closing{z-index:0;padding-top:120px}
 
-
+//Logos
 .logo{
 	position:absolute;
 	top:1em;
 	left:1em;
 }
 
+
+
+//Text Balances
 .intro-text{
 	padding:15em 10%;
 	float:left;
 	width:40%;
 }
 
+.left-wide{
+	float:left;
+	width:54%;
+	padding:5em 2% 5em 4%;
+}
 
+.left-narrow{
+	float:left;
+	width:34%;
+	padding:5em 2% 5em 4%;
+}
+
+.right-wide{
+	float:right;
+	width:54%;
+	padding:5em 4% 5em 2%;
+}
+
+.right-narrow{
+	float:right;
+	width:34%;
+	padding:5em 4% 5em 2%;
+}
+
+.images{
+	position:relative;
+	min-height:400px;
+	
+	div{
+		position:absolute;
+	}
+}
 
 .triad{
 	list-style-type:none;
@@ -134,12 +170,56 @@ section{
 	}
 }
 
-.graphics-img{
+#graphics-img{
 	img{
 		width:100%;
 	}
 }
 
+#credentials-text-1{
+	float:left;
+	width:26%;
+	padding:1em 2%;
+	margin-left:5%;
+}
+
+#credentials-text-2{
+	float:left;
+	width:26%;
+	padding:1em 2%;
+	margin-right:5%;
+}
+
+#credentials-img{
+	float:left;
+	width:26%;
+	padding:1em 2%;
+}
+
+
+#intro-img-1{bottom:0;}
+#intro-img-2{bottom:0;}
+#intro-img-3{bottom:20px;left:15px;}
+#intro-img-4{bottom: 405px;left: 237px;}
+
+#approach-img-1{bottom:0;}
+#approach-img-2{bottom:130px;}
+
+#credentials-img-1{bottom:0px;}
+#credentials-img-2{bottom:0px;}
+#credentials-img-3{bottom:50px;left:75px;}
+#credentials-img-4{bottom:120px;left:75px;}
+#credentials-img-5{bottom:215px;left:100px}
+#credentials-img-6{bottom:250px;left:130px}
+#credentials-img-7{bottom: 220px;left:172px;}
+#credentials-img-8{bottom:270px;left:75px;}
+#credentials-img-9{bottom:255px;left:155px;}
+#credentials-img-10{bottom: 300px;left: 160px;}
+
+
+#closing-img-1{bottom:0;}
+#closing-img-2{bottom:25px;}
+#closing-img-3{bottom:10px; left:150px;}
 
 
 
