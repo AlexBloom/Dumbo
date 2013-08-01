@@ -1,0 +1,39 @@
+/* COLORS ======= */
+
+$white: #FFF;
+$black: #000;
+
+$red: #EE4D51;
+$purple: #623E91;
+$yellow: #F5E152;
+$green: #32B357;
+$blue: #3D5BA1;
+$light-blue: #75CBD7;
+
+/* EMS ======= */
+
+@function em($target, $context: 16) {
+    @return ($target / $context) * 1em;
+}
+
+@mixin full-bleed-background{
+background-position:50% 0;
+background-size:cover;
+background-repeat:no-repeat;
+}
+
+@mixin quarter-second-transition{
+-webkit-transition-duration: .25s;
+-moz-transition-duration: .25s;
+-ms-transition-duration: .25s;
+-o-transition-duration: .25s;
+transition-duration: .25s;
+}
+
+@mixin drop-shadow{
+-webkit-box-shadow: 0 0.1em 0.4em rgba(0,0,0,0.5); //, 0 0.1em 0.4em $black;
+-moz-box-shadow: 0 0.1em 0.4em rgba(0,0,0,0.5); //, 0 0.1em 0.4em $black;
+-ms-box-shadow: 0 0.1em 0.4em rgba(0,0,0,0.5); //, 0 0.1em 0.4em $black;
+-o-box-shadow: 0 0.1em 0.4em rgba(0,0,0,0.5); //, 0 0.1em 0.4em $black;
+box-shadow: 0 0.1em 0.4em rgba(0,0,0,0.5); //, 0 0.1em 0.4em $black;
+}
