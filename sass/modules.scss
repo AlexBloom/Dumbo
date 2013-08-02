@@ -24,3 +24,19 @@
 	background-color:$light-blue;
 	color:$blue;
 }
+
+
+
+//Waypoint Classes
+
+.stickyheader.stuck {
+	position:fixed;
+	top:0;
+	width:100%;
+}
+
+.stickylogo.stuck {
+	position:fixed;
+	left:1em;
+	top:1em;
+}

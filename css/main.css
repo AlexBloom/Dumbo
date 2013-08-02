@@ -127,6 +127,16 @@ ul {
   background-color: #75cbd7;
   color: #3d5ba1; }
 
+.stickyheader.stuck {
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
+.stickylogo.stuck {
+  position: fixed;
+  left: 1em;
+  top: 1em; }
+
 .navlink {
   font-family: 'ano_boldregular', helvetica, sans-serif;
   display: block;
@@ -157,7 +167,7 @@ section {
   display: block;
   position: relative;
   width: 100%;
-  min-height: 700px;
+  height: 800px;
   overflow: hidden; }
 
 #intro {

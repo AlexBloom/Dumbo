@@ -1,1 +1,1 @@
-$(document).ready(function(){});
+$(document).ready(function(){$(".sticky-wrapper").waypoint(function(e){e=="down"?$(this).find(".stickyheader").addClass("stuck"):$(this).find(".stickyheader").removeClass("stuck")},{offset:0})});
