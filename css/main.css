@@ -77,25 +77,26 @@ body {
   text-align: center; }
 
 h1 {
-  font-family: 'ano_boldregular', helvetica, sans-serif;
-  font-size: 2em;
-  font-weight: bold;
+  font-family: 'ano_blackregular', helvetica, sans-serif;
+  font-size: 1.5em;
+  line-height: 1.25em;
+  font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin: 0; }
 
 h2 {
-  font-family: 'ano_boldregular', helvetica, sans-serif;
-  font-size: 4em;
-  font-weight: bold;
+  font-family: 'ano_blackregular', helvetica, sans-serif;
+  font-size: 5em;
+  font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  margin: .5em 0; }
+  margin: .2em 0; }
 
 h3 {
   font-family: 'ano_boldregular', helvetica, sans-serif;
   font-size: 1.5em;
-  font-weight: bold;
+  font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 0.1em; }
 
@@ -127,13 +128,14 @@ ul {
   color: #3d5ba1; }
 
 .navlink {
+  font-family: 'ano_boldregular', helvetica, sans-serif;
   display: block;
   position: fixed;
   left: 0;
   right: 0;
   padding: .3em 0;
   text-decoration: none;
-  font-weight: bold; }
+  font-weight: normal; }
 
 #nav-intro {
   z-index: 90;
@@ -155,7 +157,7 @@ section {
   display: block;
   position: relative;
   width: 100%;
-  min-height: 900px;
+  min-height: 700px;
   overflow: hidden; }
 
 #intro {
@@ -179,8 +181,22 @@ section {
 
 .logo {
   position: absolute;
-  top: 1em;
   left: 1em; }
+
+#intro-logo {
+  top: 30px; }
+
+#approach-logo {
+  top: 60px; }
+
+#graphics-logo {
+  top: 90px; }
+
+#credentials-logo {
+  top: 120px; }
+
+#closing-logo {
+  top: 150px; }
 
 .intro-text {
   padding: 15em 10%;

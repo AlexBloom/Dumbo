@@ -66,6 +66,7 @@ textarea {
 
 	
 	.navlink{
+		font-family:'ano_boldregular', helvetica, sans-serif;
 		display:block;
 		position:fixed;
 		//position:relative;
@@ -73,7 +74,7 @@ textarea {
 		right:0;
 		padding: .3em 0;
 		text-decoration:none;
-		font-weight:bold;
+		font-weight:normal;
 	}
 	
 	#nav-intro{z-index:90; top:0;}
@@ -87,7 +88,7 @@ section{
 	display:block;
 	position:relative;
 	width:100%;
-	min-height:900px;
+	min-height:700px;
 	overflow:hidden;
 }
 
@@ -100,9 +101,14 @@ section{
 //Logos
 .logo{
 	position:absolute;
-	top:1em;
 	left:1em;
 }
+
+#intro-logo{top:30px;}
+#approach-logo{top:60px;}
+#graphics-logo{top:90px;}
+#credentials-logo{top:120px;}
+#closing-logo{top:150px;}
 
 
 
