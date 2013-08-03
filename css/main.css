@@ -136,7 +136,7 @@ ul {
 
 .logo {
   position: absolute;
-  margin: 0 0 0 1em; }
+  margin: 0 0 0 30px; }
 
 #intro-logo h1 {
   margin-top: 30px; }
@@ -217,8 +217,10 @@ section {
   display: block;
   position: relative;
   width: 100%;
-  height: 800px;
-  overflow: hidden; }
+  min-height: 1000px; }
+
+.content-wrap {
+  margin-top: 400px; }
 
 #intro {
   z-index: 100; }
