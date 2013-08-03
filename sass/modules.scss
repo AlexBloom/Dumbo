@@ -27,16 +27,57 @@
 
 
 
-//Waypoint Classes
+//Stickem Classes
 
-.stickyheader.stuck {
-	position:fixed;
-	top:0;
+.header{
 	width:100%;
+	padding:0;
+	z-index:1000;
+	position:absolute;
 }
 
-.stickylogo.stuck {
-	position:fixed;
-	left:1em;
-	top:1em;
+//Logos
+.logo{
+	position:absolute;
+	margin:0 0 0 1em;
 }
+
+#intro-logo h1{margin-top:30px;}
+#approach-logo h1{margin-top:60px;}
+#graphics-logo h1{margin-top:90px;}
+#credentials-logo h1{margin-top:120px;}
+#closing-logo h1{margin-top:150px;}
+
+#intro-head h2{margin-top:30px;}
+#approach-head h2{margin-top:60px;}
+#graphics-head h2{margin-top:90px;}
+#credentials-head h2{margin-top:120px;}
+#closing-head h2{margin-top:150px;}
+
+
+.stickem-container{
+	position:relative;
+}
+
+.header.stickit {
+	position:fixed !important;
+	top:0;
+}
+
+.header.stickit-end {
+	position: absolute;
+	bottom:1em;
+}
+
+.logo.stickit {
+	position:fixed !important;
+	top:0;
+}
+
+.logo.stickit-end{
+	position:absolute !important;
+	bottom:0;
+}
+
+
+

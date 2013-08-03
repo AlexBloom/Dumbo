@@ -17,7 +17,7 @@
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
-    <body>
+    <body class="container">
 
 		
 			<a id="nav-intro" class="navlink intro" href="#intro">Intro</a>
@@ -26,15 +26,15 @@
 			<a id="nav-credentials" class="navlink credentials" href="#credentials">Credentials</a>
 		
 		
-		<section id="intro" class="clearfix intro sticky-wrapper"> 
+		<section id="intro" class="clearfix intro stickem-container"> 
 			
-			<div class="logo" id="intro-logo">
-				<h1>Dumbo </br> Arts </br> Festival</h1>
-			</div>
+				<div id="intro-logo" class="logo stickem">
+					<h1>Dumbo </br> Arts </br> Festival</h1>
+				</div>
 
-			<header id="intro-head" class="stickyheader">
-				<h2> Intro </h2>
-			</header>
+				<header id="intro-head" class="header stickem">
+					<h2> Intro </h2>
+				</header>
 			
 			<div id="intro-text" class="left-wide">
 				<p id="intro-text-1">Howdy!</p>
@@ -51,13 +51,13 @@
 		
 		</section>
 		
-		<section id="approach" class="clearfix approach sticky-wrapper"> 
+		<section id="approach" class="clearfix approach stickem-container"> 
 			
-			<div class="logo" id="approach-logo">
+			<div id="approach-logo" class="logo stickem">
 				<h1>Dumbo </br> Arts </br> Festival</h1>
 			</div>
 
-			<header id="approach-head" class="stickyheader">
+			<header id="approach-head" class="header stickem">
 				<h2> Approach </h2>
 			</header>
 			
@@ -74,13 +74,13 @@
 		
 		</section>
 		
-		<section id="graphics" class="clearfix graphics sticky-wrapper"> 
+		<section id="graphics" class="clearfix graphics stickem-container"> 
 			
-			<div class="logo stickyheader" id="graphics-logo">
+			<div id="graphics-logo" class="logo stickem">
 				<h1>Dumbo </br> Arts </br> Festival</h1>
 			</div>
         	
-			<header id="graphics-head" class="stickyheader"> 
+			<header id="graphics-head" class="header stickem"> 
 				<h2> Graphics </h2> 
 			</header>
 			
@@ -104,13 +104,13 @@
 		
 		</section>
 		
-		<section id="credentials" class="clearfix credentials"> 
+		<section id="credentials" class="clearfix credentials stickem-container"> 
 			
-			<div class="logo" id="credentials-logo">
+			<div id="credentials-logo" class="logo stickem">
 				<h1>Dumbo </br> Arts </br> Festival</h1>
 			</div>
         			
-			<header id="credentials-head"> 
+			<header id="credentials-head" class="header stickem"> 
 				<h2> Credentials </h2>
 			</header>
 			
@@ -147,13 +147,13 @@
 		
 		</section>
 		
-		<section id="closing" class="clearfix closing"> 
+		<section id="closing" class="clearfix closing stickem-container"> 
 			
-			<div class="logo" id="closing-logo">
+			<div id="closing-logo" class="logo stickem">
 				<h1>Dumbo </br> Arts </br> Festival</h1>
 			</div>
         	
-			<header id="closing-head"> 
+			<header id="closing-head" class="header stickem"> 
 				<h2> Closing </h2>
 			</header>
 			
@@ -174,15 +174,22 @@
 		
 		
 		
-		<script type="text/javascript" src="js/greensock/TweenMax.min.js"></script>
+		<!--<script type="text/javascript" src="js/greensock/TweenMax.min.js"></script>-->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	  	<script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
-	  	<script src="js/jquery.superscrollorama.js"></script>
-		<script src="js/vendor/waypoints.min.js"></script>
-		<script src="js/vendor/waypoints-sticky.js"></script>
-
+	  	<!--<script src="js/jquery.superscrollorama.js"></script>-->
+		
         <script src="js/plugins.js"></script>
+		
+		<script src="js/jquery.stickem.js"></script>
+		
         <script src="js/main.js"></script>
+		
+		<script>
+				$(document).ready(function() {
+					$('.container').stickem();
+				});
+			</script>
 
         <script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
