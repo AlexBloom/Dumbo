@@ -64,14 +64,12 @@ textarea {
 @import "typography";
 @import "modules";
 
-	
 	.navlink{
 		font-family:'ano_boldregular', helvetica, sans-serif;
 		display:block;
 		position:fixed;
-		//position:relative;
-		left:0;
-		right:0;
+		width:100%;
+		margin:0;
 		padding: .3em 0;
 		text-decoration:none;
 		font-weight:normal;
@@ -89,12 +87,13 @@ section{
 	position:relative;
 	width:100%;
 	min-height:1000px;
-	//overflow:hidden;
 }
 
-.content-wrap{
-	margin-top:400px;
-}
+#intro-content{margin:300px 0 0 0;}
+#approach-content{margin:300px 0 0 0;}
+#graphics-content{margin:200px 0 0 0;}
+#credentials-content{margin:400px 0 200px 0;}
+#closing-content{margin:300px 0 0 0;}
 
 #intro{z-index:100;}
 #approach{z-index:80;padding-top:30px}
@@ -195,29 +194,6 @@ section{
 }
 
 
-#intro-img-1{bottom:0;}
-#intro-img-2{bottom:0;}
-#intro-img-3{bottom:20px;left:15px;}
-#intro-img-4{bottom: 405px;left: 237px;}
-
-#approach-img-1{bottom:0;}
-#approach-img-2{bottom:130px;}
-
-#credentials-img-1{bottom:0px;}
-#credentials-img-2{bottom:0px;}
-#credentials-img-3{bottom:50px;left:75px;}
-#credentials-img-4{bottom:120px;left:75px;}
-#credentials-img-5{bottom:215px;left:100px}
-#credentials-img-6{bottom:250px;left:130px}
-#credentials-img-7{bottom: 220px;left:172px;}
-#credentials-img-8{bottom:270px;left:75px;}
-#credentials-img-9{bottom:255px;left:155px;}
-#credentials-img-10{bottom: 300px;left: 160px;}
-
-
-#closing-img-1{bottom:0;}
-#closing-img-2{bottom:25px;}
-#closing-img-3{bottom:10px; left:150px;}
 
 
 

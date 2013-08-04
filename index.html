@@ -36,7 +36,7 @@
 					<h2> Intro </h2>
 				</header>
 			
-			<div class="content-wrap">
+			<div id="intro-content" class="content-wrap clearfix">
 			
 				<div id="intro-text" class="left-wide">
 					<p id="intro-text-1">Howdy!</p>
@@ -65,12 +65,12 @@
 				<h2> Approach </h2>
 			</header>
 			
-			<div class="content-wrap">
+			<div id="approach-content" class="content-wrap clearfix">
 			
 				<div id="approach-text" class="right-wide">
 					<p id="approach-text-1"> Conceptually we based your branding system on the idea of recontextualizing classic art motifs — portraiture, still life etc. By taking these gestures and reducing them formally, you broaden the application of this system,  appealing to the very young and the older art enthusiast in one gesture.</p>
 
-	 				<p id="approach-text-2"> And here’s what that jargon can look like</p>
+	 				<h3 id="approach-text-2"> And here’s what that jargon can look like</h3>
 				</div>
 			
 				<div id="approach-img" class="left-narrow images">
@@ -92,7 +92,7 @@
 				<h2> Graphics </h2> 
 			</header>
 			
-			<div class="content-wrap">
+			<div id="graphics-content" class="content-wrap clearfix">
 				
 				<div id="graphics-img">
 					<ul class="triad clearfix">
@@ -124,18 +124,18 @@
 				<h2> Credentials </h2>
 			</header>
 			
-			<div class="content-wrap">
+			<div id="credentials-content" class="content-wrap clearfix">
 			
 				<div id="credentials-text-1">
 					<p> We worked with some small mom and pop brands:</p>
 					<ul id="credentials-list">
-						<li>Apple</li>
-						<li>GOOD magazine</li>
-						<li>Urban Outfitters</li>
-						<li>Nike</li>
-						<li>Bloomburg</li>
-						<li>New Museum</li>
-						<li>Festival of Ideas.</li>  
+						<li id="cred-1">Apple</li>
+						<li id="cred-2">GOOD magazine</li>
+						<li id="cred-3">Urban Outfitters</li>
+						<li id="cred-4">Nike</li>
+						<li id="cred-5">Bloomburg</li>
+						<li id="cred-6">New Museum</li>
+						<li id="cred-7">Festival of Ideas.</li>  
 					</ul>				
 				</div>
 			
@@ -171,7 +171,7 @@
 				<h2> Closing </h2>
 			</header>
 			
-			<div class="content-wrap">
+			<div id="closing-content" class="content-wrap clearfix">
 				
 				<div id="closing-text" class="left-wide">
 					<p id="closing-text-1"> We hope you enjoyed this journey we just went on, we’re like best friends now right? </p>
@@ -192,11 +192,11 @@
 		
 		
 		
-		<!--<script type="text/javascript" src="js/greensock/TweenMax.min.js"></script>-->
+		<script type="text/javascript" src="js/greensock/TweenMax.min.js"></script>
+		<script src="js/greensock/easing/EasePack.min.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	  	<script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
-	  	<!--<script src="js/jquery.superscrollorama.js"></script>-->
-		
+	  	<script src="js/jquery.superscrollorama.js"></script>
         <script src="js/plugins.js"></script>
 		
 		<script src="js/jquery.stickem.js"></script>
@@ -207,7 +207,7 @@
 				$(document).ready(function() {
 					$('.container').stickem();
 				});
-			</script>
+		</script>
 
         <script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
