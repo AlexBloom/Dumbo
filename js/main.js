@@ -18,8 +18,8 @@ $(document).ready(function() {
 	controller.addTween('#intro-img-3', TweenMax.to( $('#intro-img-3'), 1.5, {css:{bottom:'20px',left:'15px'}, ease:Quad.easeInOut}), scrollDuration);
 	controller.addTween('#intro-img-4', TweenMax.to( $('#intro-img-4'), 2, {css:{bottom:'405px',left:'237px'}, ease:Quad.easeInOut}), scrollDuration);
 
-	controller.addTween('#approach-img-2', TweenMax.from( $('#approach-img-2'), 1, {css:{left:'-1200px'}, ease:Quad.easeInOut}), scrollDuration);
-	controller.addTween('#approach-text-2', TweenMax.from( $('#approach-text-2'), .5, {css:{opacity: 0}}), scrollDuration);
+	controller.addTween('#approach-img-2', TweenMax.from( $('#approach-img-2'), 1.5, {css:{left:'-1000px'}, ease:Quad.easeInOut}), scrollDuration);
+	controller.addTween('#approach-text-2', TweenMax.from( $('#approach-text-2'), 1.5, {css:{opacity: 0}}), scrollDuration);
 	
 	
 	controller.addTween('#credentials-list', TweenMax.from( $('#credentials-list'), .5, {css:{opacity: 0}}), scrollDuration);
@@ -43,10 +43,10 @@ $(document).ready(function() {
 	controller.addTween('#credentials-img-9', TweenMax.from( $('#credentials-img-9'), .5, {css:{opacity: 0}}), scrollDuration);
 	controller.addTween('#credentials-img-10', TweenMax.from( $('#credentials-img-10'), .5, {css:{opacity: 0}}), scrollDuration);
 
-	controller.addTween('#credentials-text-2', TweenMax.from( $('#credentials-text-2'), .5, {css:{opacity: 0}}), scrollDuration);
+	controller.addTween('#credentials-text-2', TweenMax.from( $('#credentials-text-2'), 1.5, {css:{opacity: 0}}), scrollDuration);
 	
-	controller.addTween('#closing-img-2', TweenMax.to( $('#closing-img-2'), .5, {css:{left:'29px'}, ease:Quad.easeInOut}), scrollDuration);
-	controller.addTween('#closing-img-3', TweenMax.to( $('#closing-img-3'), .5, {css:{bottom:'10px',left:'150px'}, ease:Quad.easeInOut}), scrollDuration);
+	controller.addTween('#closing-img-2', TweenMax.to( $('#closing-img-2'), .5, {css:{left:'50px'}, ease:Quad.easeInOut}), scrollDuration);
+	controller.addTween('#closing-img-3', TweenMax.to( $('#closing-img-3'), .5, {css:{bottom:'25px'}, ease:Quad.easeInOut}), scrollDuration);
 
 	
 });
