@@ -13,10 +13,14 @@ $(document).ready(function() {
 	var scrollDuration = 50; 
 
 	// individual element tween examples
+	controller.addTween('#intro-text-1', TweenMax.from( $('#intro-text-1'), 1.5, {css:{opacity: 0}}), scrollDuration);
+	controller.addTween('#intro-text-2', TweenMax.from( $('#intro-text-2'), 1.5, {css:{opacity: 0}}), scrollDuration);
+	controller.addTween('#intro-text-3', TweenMax.from( $('#intro-text-3'), 1.5, {css:{opacity: 0}}), scrollDuration);
+	
 	controller.addTween('#intro-img-1', TweenMax.to( $('#intro-img-1'), 0.5, {css:{bottom:'0px'}, ease:Quad.easeInOut}), scrollDuration);
-	controller.addTween('#intro-img-2', TweenMax.to( $('#intro-img-2'), 1, {css:{bottom:'0px'}, ease:Quad.easeInOut}), scrollDuration);
-	controller.addTween('#intro-img-3', TweenMax.to( $('#intro-img-3'), 1.5, {css:{bottom:'20px',left:'15px'}, ease:Quad.easeInOut}), scrollDuration);
-	controller.addTween('#intro-img-4', TweenMax.to( $('#intro-img-4'), 2, {css:{bottom:'405px',left:'237px'}, ease:Quad.easeInOut}), scrollDuration);
+	//controller.addTween('#intro-img-2', TweenMax.to( $('#intro-img-2'), 1, {css:{bottom:'0px',left:'50px'}, ease:Quad.easeInOut}), scrollDuration);
+	controller.addTween('#intro-img-3', TweenMax.to( $('#intro-img-3'), 1.5, {css:{bottom:'20px',left:'39px'}, ease:Quad.easeInOut}), scrollDuration);
+	controller.addTween('#intro-img-4', TweenMax.to( $('#intro-img-4'), 2, {css:{bottom:'403px',left:'261px'}, ease:Quad.easeInOut}), scrollDuration);
 
 	controller.addTween('#approach-img-2', TweenMax.from( $('#approach-img-2'), 1.5, {css:{left:'-1000px'}, ease:Quad.easeInOut}), scrollDuration);
 	controller.addTween('#approach-text-2', TweenMax.from( $('#approach-text-2'), 1.5, {css:{opacity: 0}}), scrollDuration);
@@ -45,8 +49,8 @@ $(document).ready(function() {
 
 	controller.addTween('#credentials-text-2', TweenMax.from( $('#credentials-text-2'), 1.5, {css:{opacity: 0}}), scrollDuration);
 	
-	controller.addTween('#closing-img-2', TweenMax.to( $('#closing-img-2'), .5, {css:{left:'50px'}, ease:Quad.easeInOut}), scrollDuration);
-	controller.addTween('#closing-img-3', TweenMax.to( $('#closing-img-3'), .5, {css:{bottom:'25px'}, ease:Quad.easeInOut}), scrollDuration);
+	controller.addTween('#closing-img-2', TweenMax.to( $('#closing-img-2'), 1.5, {css:{left:'53px'}, ease:Quad.easeInOut}), scrollDuration);
+	controller.addTween('#closing-img-3', TweenMax.to( $('#closing-img-3'), 1.5, {css:{bottom:'15px',left:'180px'}, ease:Quad.easeInOut}), scrollDuration);
 
 	
 });
