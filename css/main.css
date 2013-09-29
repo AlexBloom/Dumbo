@@ -363,19 +363,19 @@ section {
 
 #approach {
   z-index: 80;
-  padding-top: 30px; }
+  padding-top: 0px; }
 
 #graphics {
   z-index: 60;
-  padding-top: 60px; }
+  padding-top: 0px; }
 
 #credentials {
   z-index: 40;
-  padding-top: 90px; }
+  padding-top: 0px; }
 
 #closing {
   z-index: 0;
-  padding-top: 120px; }
+  padding-top: 0px; }
 
 .intro-text {
   padding: 15em 10%;
