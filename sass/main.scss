@@ -112,26 +112,26 @@ section{
 
 .left-wide{
 	float:left;
-	width:50%;
-	padding:5em 4% 5em 6%;
+	width:(em(700));
+	padding:5em 1em 5em 1em;
 }
 
 .left-narrow{
 	float:left;
-	width:30%;
-	padding:5em 4% 5em 6%;
+	width:(em(350));
+	padding:5em 1em 5em 1em;
 }
 
 .right-wide{
 	float:right;
-	width:50%;
-	padding:5em 6% 5em 4%;
+	width:(em(700));
+	padding:5em 1em 5em 1em;
 }
 
 .right-narrow{
 	float:right;
-	width:30%;
-	padding:5em 6% 5em 4%;
+	width:(em(350));
+	padding:5em 1em 5em 1em;
 }
 
 .images{
@@ -150,16 +150,23 @@ section{
 	
 	li{
 		float:left;
-		width:26%;
-		padding:1em 2%;
-	
-		&:first-child{
-			margin-left:5%;
-		}
+		width:80%;
+		padding:1em 10%;
 		
-		&:last-child{
-			margin-right:5%;
-		}
+		@media screen and (min-width: (em(800))){
+		
+			width:26%;
+			padding:1em 2%;
+	
+			&:first-child{
+				margin-left:5%;
+			}
+		
+			&:last-child{
+				margin-right:5%;
+			}	
+		
+		}		
 	}
 	
 	img{
